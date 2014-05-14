@@ -1,0 +1,17 @@
+Name:Parag Acharya
+Email:pachary@clemson.edu
+Date:02/05/2013
+
+Proj No:1
+Description:In this project we were supposed to build two sprites:a sprite for background and a sprite that will bounce around in display window and incorporate these two sprites into a C++ framework.
+
+XML File changes:
+The following new fields were added in game.xml:
+<noOfOrbs>,<backFile>,<backSrcx>,<backSrcy>,<backWidth>,<backHeight>,<backLoc>,<backSpeed>,<backTransparency>,<captionTitle> and <captionY>
+
+The Specs that I implemented are:
+Two Sprites are created:a sprite for background and a sprite that will bounce in the display window
+Sprites were drawn using Inkscape
+The sprites that will bounce in the display window are stored in an STL vector,number of sprites can be changed by changing the <noOfOrbs> field in the XML file
+The code is free of memory leaks and does not contain any errors
+

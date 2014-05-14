@@ -1,0 +1,34 @@
+Name:Parag Acharya
+Email:pachary@clemson.edu
+Date:04/15/2013
+
+Proj No:4
+Description:The purpose of this project is to extend your animation into a video game with a single level, a consistent
+theme that threads the animation, and to enable a player to reach a conclusion.
+
+XML File changes:
+The following new fields were added in game.xml:
+<guard> , <guard1> , <apple> , <knife> , <peddler> and <knife1>
+
+The Specs that I implemented are:
+Projectiles , Collisions, Explosions and Sound
+
+
+Sprites were obtained from the following sites:
+http://spritedatabase.net/game/331
+http://spriters-resource.com/genesis/alladin/
+http://spritedatabase.net/search.php?q=aladdin
+
+Music was obtained from the following sites:
+http://gh.ffshrine.org/soundtracks/1690
+http://www.veengle.com/s/aladdin%20game%20soundtrack.html
+http://www.pond5.com/sound-effects/1/knife.html
+
+In the final project more enemies will be added,jumping feature will be incorporated and in order to win the game aladdin will have to kill
+the final boss(Jafar).
+
+All the animation assets are handled by the frameFactory class.
+
+The code is free of memory leaks and does not contain any errors
+
+

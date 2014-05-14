@@ -1,0 +1,236 @@
+<?xml version = "1.0"?>
+<GameData>
+
+<view>
+  <viewWidth>640</viewWidth>
+  <viewHeight>480</viewHeight>
+</view>
+
+<world>
+  <worldWidth>1000</worldWidth>
+  <worldHeight>480</worldHeight>
+</world>
+
+<fps>60</fps>
+
+<caption1>
+  <captionTitle1>press T to switch sprites</captionTitle1>
+  <captionY1>50</captionY1>
+</caption1>
+
+<caption2>
+  <captionTitle2>Tracking</captionTitle2>
+  <captionY2>30</captionY2>
+</caption2>
+
+<info>
+<infoRight>Right Arrow - Move Right </infoRight>
+<infoLeft>Left Arrow - Move Left  </infoLeft>
+</info>
+
+<hud>
+<hudSrcX1>10</hudSrcX1>
+<hudSrcY1>10</hudSrcY1>
+<hudSrcX2>210</hudSrcX2>
+<hudSrcY2>70</hudSrcY2>
+</hud>
+
+<screenTitle>Multiframes Sprite</screenTitle>
+
+<font name="font">
+  <fontFile>font/dyslexic-bold.otf</fontFile>
+  <fontSize>14</fontSize>
+  <fontRed>255</fontRed>
+  <fontGreen>255</fontGreen>
+  <fontBlue>255</fontBlue>
+  <fontUnused>0</fontUnused>
+</font>
+<maxStringSize>50</maxStringSize>
+
+<back>
+  <backFile>images/dungeon.png</backFile>
+  <backWidth>1280</backWidth>
+  <backHeight>480</backHeight>
+  <backTransparency>false</backTransparency>
+  <backSrcX>0</backSrcX>
+  <backSrcY>0</backSrcY>
+</back>
+
+<front>
+  <frontFile>images/fence.png</frontFile>
+  <frontWidth>640</frontWidth>
+  <frontHeight>480</frontHeight>
+  <frontTransparency>false</frontTransparency>
+  <frontSrcX>0</frontSrcX>
+  <frontSrcY>0</frontSrcY>
+</front>
+
+<noOfSprite>3</noOfSprite>
+
+
+<carpet>
+  <carpetFile>images/carpet.png</carpetFile>
+  <carpetLoc carpetX="320" carpetY="240"/>
+
+  <carpetFrames>6</carpetFrames>
+  <carpetFrameInterval>5</carpetFrameInterval>
+  <carpetChunks>25</carpetChunks>
+  <carpetChunkSize>9</carpetChunkSize>
+  <carpetChunkDistance>200</carpetChunkDistance>
+  <carpetSrcX>0</carpetSrcX>
+  <carpetSrcY>0</carpetSrcY>
+  <carpetWidth>50</carpetWidth>
+  <carpetHeight>42</carpetHeight>
+  <carpetSpeedX>-100</carpetSpeedX>
+  <carpetSpeedY>100</carpetSpeedY>
+  <carpetTransparency>true</carpetTransparency>
+</carpet>
+
+
+<aladdin>
+  <aladdinFile>images/aladdin.png</aladdinFile>
+  <aladdinBullet>apple</aladdinBullet>
+  <aladdinLoc aladdinX="10" aladdinY="410"/>
+  <aladdinFrames>3</aladdinFrames>
+  <aladdinFrameInterval>7</aladdinFrameInterval>
+  <aladdinChunks>25</aladdinChunks>
+  <aladdinRightSrc aladdinRightSrcX="175" aladdinRightSrcY="58" />
+  <aladdinLeftSrc aladdinLeftSrcX="0" aladdinLeftSrcY="58" />
+  <aladdinWidth>53</aladdinWidth>
+  <aladdinHeight>60</aladdinHeight>
+  <aladdinSpeedX>200</aladdinSpeedX>
+  <aladdinSpeedY>300</aladdinSpeedY>
+  <aladdinMinY>360</aladdinMinY>
+  <aladdinGravity>10</aladdinGravity>
+  <aladdinorbCushion>1</aladdinorbCushion>
+  <aladdinTransparency>true</aladdinTransparency>
+</aladdin>
+
+<jasmine>
+  <jasmineFile>images/jasmine.png</jasmineFile>
+  <jasmineLoc jasmineX="600" jasmineY="410"/>
+  <jasmineFrames>4</jasmineFrames>
+  <jasmineFrameInterval>7</jasmineFrameInterval>
+  <jasmineChunks>25</jasmineChunks>
+  <jasmineRightSrc jasmineRightSrcX="0" jasmineRightSrcY="0" />
+  <jasmineLeftSrc jasmineLeftSrcX="75" jasmineLeftSrcY="56" />
+  <jasmineWidth>40</jasmineWidth>
+  <jasmineHeight>55</jasmineHeight>
+  <jasmineSpeedX>200</jasmineSpeedX>
+  <jasmineSpeedY>0</jasmineSpeedY>
+  <jasmineTransparency>true</jasmineTransparency>
+  <jasmineGravity>0</jasmineGravity>
+</jasmine>
+
+<genie>
+  <noOfGenie>20</noOfGenie>
+  <genieFile>images/genie.png</genieFile>
+  <genieCushion>50</genieCushion>
+  <genieScaleMin>0.5</genieScaleMin>
+  <genieScaleMax>1.5</genieScaleMax>
+  <genieSrcX>0</genieSrcX>
+  <genieSrcY>0</genieSrcY>
+  <genieWidth>50</genieWidth>
+  <genieHeight>60</genieHeight>
+  <genieLoc genieX="200" genieY="300"/>
+  <genieSpeed genieSpeedX="250" genieSpeedY="250"/>
+  <genieTransparency>true</genieTransparency>
+</genie>
+
+<velocity>
+   <upperLimit>800</upperLimit>
+   <lowerLimit>100</lowerLimit>
+    <mulFactor>100</mulFactor>
+</velocity>
+
+<scale>
+   <upperScale>1.5</upperScale>
+   <lowerScale>0.5</lowerScale>
+</scale>
+
+
+<guard>
+  <guardFile>images/gazeem.png</guardFile>
+  <guardBullet>knife</guardBullet>
+  <guardLoc guardX="320" guardY="400"/>
+  <guardFrames>7</guardFrames>
+  <guardFrameInterval>5</guardFrameInterval>
+  <guardChunks>25</guardChunks>
+  <guardDistance>100</guardDistance>
+  <guardSrcX>0</guardSrcX>
+  <guardSrcY>186</guardSrcY>
+  <guardWidth>60</guardWidth>
+  <guardHeight>75</guardHeight>
+  <guardSpeedX>0</guardSpeedX>
+  <guardSpeedY>0</guardSpeedY>
+  <guardChunkSize>9</guardChunkSize>
+  <guardChunkDistance>200</guardChunkDistance>
+  <guardTransparency>true</guardTransparency>
+  <guardCushion>1</guardCushion>
+  <guardFrame>6</guardFrame>
+</guard>
+
+<apple>
+  <appleFile>images/apple.png</appleFile>
+  <appleBulletInterval>100</appleBulletInterval>
+  <appleDistance>220</appleDistance>
+  <appleSpeedX>400</appleSpeedX>
+  <appleSpeedY>0</appleSpeedY>
+</apple>
+
+<knife>
+  <knifeFile>images/knife.png</knifeFile>
+  <knifeBulletInterval>600</knifeBulletInterval>
+  <knifeDistance>220</knifeDistance>
+  <knifeSpeedX>200</knifeSpeedX>
+  <knifeSpeedY>0</knifeSpeedY>
+</knife>
+
+<peddler>
+  <peddlerFile>images/peddler.png</peddlerFile>
+  <peddlerLoc peddlerX="620" peddlerY="400"/>
+  <peddlerFrames>6</peddlerFrames>
+  <peddlerFrameInterval>3</peddlerFrameInterval>
+  <peddlerChunks>25</peddlerChunks>
+  <peddlerChunkSize>9</peddlerChunkSize>
+  <peddlerChunkDistance>200</peddlerChunkDistance>
+  <peddlerSrcX>20</peddlerSrcX>
+  <peddlerSrcY>295</peddlerSrcY>
+  <peddlerWidth>145</peddlerWidth>
+  <peddlerHeight>84</peddlerHeight>
+  <peddlerSpeedX>0</peddlerSpeedX>
+  <peddlerSpeedY>0</peddlerSpeedY>
+  <peddlerTransparency>true</peddlerTransparency>
+</peddler>
+
+<guard1>
+  <guard1File>images/civillianenemies.gif</guard1File>
+  <guard1Bullet>knife1</guard1Bullet>
+  <guard1Loc guard1X="520" guard1Y="380"/>
+  <guard1Frames>6</guard1Frames>
+  <guard1FrameInterval>5</guard1FrameInterval>
+  <guard1Chunks>25</guard1Chunks>
+  <guard1Distance>100</guard1Distance>
+  <guard1SrcX>24</guard1SrcX>
+  <guard1SrcY>184</guard1SrcY>
+  <guard1Width>61</guard1Width>
+  <guard1Height>91</guard1Height>
+  <guard1SpeedX>0</guard1SpeedX>
+  <guard1SpeedY>0</guard1SpeedY>
+  <guard1ChunkSize>9</guard1ChunkSize>
+  <guard1ChunkDistance>200</guard1ChunkDistance>
+  <guard1Transparency>true</guard1Transparency>
+  <guard1Cushion>1</guard1Cushion>
+  <guard1Frame>0</guard1Frame>
+</guard1>
+
+<knife1>
+  <knife1File>images/knife.png</knife1File>
+  <knife1BulletInterval>700</knife1BulletInterval>
+  <knife1Distance>220</knife1Distance>
+  <knife1SpeedX>200</knife1SpeedX>
+  <knife1SpeedY>0</knife1SpeedY>
+</knife1>
+
+
+</GameData>

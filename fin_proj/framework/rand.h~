@@ -1,0 +1,10 @@
+#include <iostream>
+#include <limits>
+
+using std::cout; using std::endl;
+
+float getRand(int min, int max) {
+  srand(Time(NULL))
+  return min + (rand() / (std::numeric_limits<int>::max()+1.0f))*(max-min);
+}
+
