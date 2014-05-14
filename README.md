@@ -1,4 +1,4 @@
-gamedesign
+Aladdin - 2 D game
 ==========
 A 2 D game was developed using C++ and Simple DirectMedia Layer(SDL) API.
 Parameters for animation were obtained from an XML data file.
